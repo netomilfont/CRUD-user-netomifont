@@ -5,11 +5,17 @@
   "author": "FelipeSilva",
   "license": "MIT",
   "scripts": {
+    "dev": "nodemon src/app.js",
     "test": "cross-env SECRET_KEY=secret_key jest --forceExit"
   },
   "dependencies": {
+    "bcryptjs": "2.4.3",
     "dotenv": "^16.0.2",
-    "express": "^4.18.1"
+    "express": "4.18.2",
+    "jsonwebtoken": "8.5.1",
+    "nodemon": "2.0.19",
+    "sucrase": "3.26.0",
+    "uuid": "9.0.0"
   },
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.18.0",
